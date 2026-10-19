@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Delete session",
+    "description": "Adds a Delete session action to the sidebar. Removes the session log, projection cache, spill output and workspace membership."
+  }
+}
