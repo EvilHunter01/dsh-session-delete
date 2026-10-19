@@ -1,0 +1,40 @@
+{
+  "format": 1,
+  "title": {
+    "en": "EvilHunter01 DSH plugins",
+    "zh": "EvilHunter01 插件"
+  },
+  "plugins": [
+    {
+      "name": "dsh-session-delete",
+      "title": {
+        "en": "Delete Session",
+        "zh": "删除会话"
+      },
+      "description": {
+        "en": "Adds a Delete session action to the DSH sidebar. Removes the session log, projection cache, spill output and workspace membership; running sessions are refused.",
+        "zh": "给 DSH 会话右键菜单加「删除会话」：删除日志、投影缓存、spill 和工作区归属；运行中的会话会被拒绝。"
+      },
+      "icon": "icons/icon.svg",
+      "author": "EvilHunter01",
+      "homepage": "https://github.com/EvilHunter01/dsh-session-delete#readme",
+      "repository": {
+        "url": "https://github.com/EvilHunter01/dsh-session-delete"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792374008,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/EvilHunter01/dsh-session-delete",
+            "commit": "80e616cb1de124bbe596d8e068be1f8774351f93"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
