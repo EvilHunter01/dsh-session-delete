@@ -2,6 +2,15 @@
 
 给 DeepSeek Harness 的会话右键菜单加一个「删除会话」。官方只有「归档会话」，这个插件补的是真正删磁盘的那种删除。
 
+## 插件市场
+
+已发布到 GitHub，并托管了可直接添加到 DSH 的市场索引：
+
+- 源码：<https://github.com/EvilHunter01/dsh-session-delete>
+- 市场索引：<https://evilhunter01.github.io/dsh-session-delete/index.json>
+
+在 DSH 里：**插件 → 实验性插件 → 打开「自定义插件市场」→ 发现 → 添加索引源**，粘贴索引 URL，然后安装 `dsh-session-delete`（git 源，版本 0.1.0，commit `80e616c`）。
+
 ## 当前状态
 
 已安装进 `desktop` profile（以 `link:` 方式指向本目录）：
