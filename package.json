@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-delete",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Adds a Delete session action to the DeepSeek Harness sidebar, with immediate log/cache removal.",
   "license": "MIT",
@@ -19,14 +19,16 @@
   "exports": {
     ".": "./host.js",
     "./client": "./client.js",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
   },
   "files": [
     "host.js",
     "client.js",
     "cordis.patch.yml",
     "README.md",
-    "icon.svg"
+    "icon.svg",
+    "locale/*.json"
   ],
   "dsh": {
     "bundle": {
