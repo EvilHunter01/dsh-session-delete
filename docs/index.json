@@ -23,12 +23,12 @@
                                        },
                         "versions":  [
                                          {
-                                             "version":  "0.1.2",
-                                             "publishTimestamp":  1792381720,
+                                             "version":  "0.1.3",
+                                             "publishTimestamp":  1792382643,
                                              "source":  {
                                                             "type":  "git",
                                                             "url":  "https://github.com/EvilHunter01/dsh-session-delete",
-                                                            "commit":  "67101072188906013e7c7f41f551f899e972ec14"
+                                                            "commit":  "35ea4d113c87515c98f6d84262321b7c7c8ed77a"
                                                         },
                                              "engines":  {
                                                              "dsh":  "\u003e=0.2.0-rc.2"
