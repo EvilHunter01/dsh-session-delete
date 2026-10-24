@@ -15,7 +15,7 @@
 ### 从插件市场（推荐）
 
 - 市场索引：<https://evilhunter01.github.io/dsh-session-delete/index.json>
-- 索引里的 source 指向 Gitee，当前版本 `0.1.3`
+- 索引里的 source 指向 Gitee，当前版本 `0.1.4`
 
 在 DSH 里：**插件 → 实验性插件 → 打开「自定义插件市场」→ 发现 → 添加索引源**，粘贴索引 URL，搜索 `dsh-session-delete` 安装。
 
