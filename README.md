@@ -15,7 +15,7 @@
 ### 从插件市场（推荐）
 
 - 市场索引：<https://evilhunter01.github.io/dsh-session-delete/index.json>
-- 索引里的 source 指向 Gitee，当前版本 `0.1.4`
+- 索引里的 source 指向 Gitee，当前版本 `0.1.5`
 
 在 DSH 里：**插件 → 实验性插件 → 打开「自定义插件市场」→ 发现 → 添加索引源**，粘贴索引 URL，搜索 `dsh-session-delete` 安装。
 
@@ -68,7 +68,7 @@ C:\Users\zhous\.dsh\profiles\desktop\package.json
 
 ## 安全边界
 
-- 正在跑 turn 的会话会被拒绝（返回「这个会话正在运行」）。
+- 正在跑 turn 的会话默认拒绝；确认框会给出「停止并删除」，先取消任务再删。
 - 打开着但空闲的会话会先停掉活动、detach 内存条目，再删文件。
 - 会话不存在 / 找不到日志目录 / 找不到存储根目录时拒绝删除。
 - 删除不可恢复；只想移出列表请用官方「归档会话」。
