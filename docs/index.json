@@ -23,12 +23,12 @@
       },
       "versions": [
         {
-          "version": "0.1.5",
-          "publishTimestamp": 1792971715,
+          "version": "0.1.6",
+          "publishTimestamp": 1792974740,
           "source": {
             "type": "git",
             "url": "https://gitee.com/zhoushengbo/dsh-session-delete",
-            "commit": "85e3a849e4fc4e423baf241cd84ade264d4c6707"
+            "commit": "8876c1234876257818b7eb5575e8b1a2e94252c7"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.2"
