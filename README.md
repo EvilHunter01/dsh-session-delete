@@ -15,7 +15,7 @@
 ### 从插件市场（推荐）
 
 - 市场索引：<https://evilhunter01.github.io/dsh-session-delete/index.json>
-- 索引里的 source 指向 Gitee，当前版本 `0.1.5`
+- 索引里的 source 指向 Gitee，当前版本 `0.1.6`
 
 在 DSH 里：**插件 → 实验性插件 → 打开「自定义插件市场」→ 发现 → 添加索引源**，粘贴索引 URL，搜索 `dsh-session-delete` 安装。
 
@@ -55,6 +55,8 @@ C:\Users\zhous\.dsh\profiles\desktop\package.json
 ## 用法
 
 在侧栏会话上右键 → 「删除会话」→ 确认「永久删除」。
+
+删除后侧栏会实时移除该会话；如果删的是当前打开的会话，主视图会自动切换到下一个可用会话，不需要刷新页面。
 
 删除内容：
 
